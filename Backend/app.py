@@ -1,10 +1,7 @@
 import os
 import shutil
 
-
-from flask import Flask, jsonify, request, send_file
-from werkzeug.utils import secure_filename
-from pathlib import Path
+from flask import Flask, jsonify
 from flasgger import Swagger, swag_from
 from swagger_config import swagger_config
 from swagger_template import swagger_template

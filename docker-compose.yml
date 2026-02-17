@@ -1,6 +1,6 @@
 services:
-  web:
-    build: .
+  backend:
+    build: ./Backend
     ports:
       - "5001:5000"
   redis:
