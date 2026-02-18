@@ -6,11 +6,18 @@ Repositorio para subir las prácticas de la asignatura GPIO.
 
 - Docker Desktop instalado y corriendo
 
-## Poner en marcha
+## Poner en marcha la primera vez
 
 ```bash
 docker compose build --no-cache
 docker compose up -d
+```
+
+si no funciona, probar con sudo
+
+```bash
+sudo docker compose build --no-cache
+sudo docker compose up -d
 ```
 
 ## Acceder a la aplicación
