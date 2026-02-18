@@ -12,6 +12,11 @@ Repositorio para subir las prácticas de la asignatura GPIO.
 docker compose build --no-cache
 docker compose up -d
 ```
+Si no funciona, hacer:
+```bash
+sudo docker compose build --no-cache
+sudo docker compose up -d
+```
 
 ## Acceder a la aplicación
 
