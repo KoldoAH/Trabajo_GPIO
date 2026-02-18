@@ -26,7 +26,7 @@ sudo docker compose up -d
 | ------- | ------------------------------ |
 | API     | http://localhost:5001/         |
 | Swagger | http://localhost:5001/swagger/ |
-| Swagger | http://localhost:5002/         |
+| Frontend | http://localhost:5002/         |
 
 ## Parar la aplicación
 
