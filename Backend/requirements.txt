@@ -1,3 +1,6 @@
 flask
 flasgger
 flask-cors
+flask-sqlalchemy
+pymysql
+cryptography
